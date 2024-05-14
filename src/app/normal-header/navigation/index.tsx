@@ -4,23 +4,23 @@ export const Navigation = () => {
   return (
     <div className={styles.items}>
       <a href="" className={styles.item}>
-        トレンド
+        ナビ１
       </a>
       <a href="" className={styles.item}>
-        質問
+        ナビ２
       </a>
       <a href="" className={styles.item}>
-        公式イベント
+        ナビ３
       </a>
       <a href="" className={styles.item}>
-        公式コラム
+        ナビ４
       </a>
       <a href="" className={styles.item}>
-        キャリア・転職
+        ナビ５
         <span className={styles.chip}>NEW</span>
       </a>
       <a href="" className={styles.item}>
-        Organization
+        ナビ６
       </a>
     </div>
   );
