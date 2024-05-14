@@ -1,35 +1,14 @@
 'use client';
 
 import { ContentsNav } from '@/app/normal-header/main/right-side-panel/contents-nav';
-import { useEffect, useRef, useState } from 'react';
 import styles from './styles.module.css';
 
-type Props = {
-  activeSection: string;
-};
-
-export const RightSidePanel = ({ activeSection }: Props) => {
-  const ref = useRef<HTMLDivElement | null>(null);
-  const [isFixed, setIsFixed] = useState(false);
-  const [bannerBottom, setBannerBottom] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (!ref.current) return;
-      const rect = ref.current.getBoundingClientRect();
-      setBannerBottom(rect.bottom);
-      setIsFixed(rect.bottom < 0);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
+export const RightSidePanel = () => {
   return (
     <div className={styles.root}>
-      <div ref={ref}></div>
-      <div className={isFixed ? styles.navFixed : ''} style={{ top: isFixed ? 0 : bannerBottom }}>
-        <ContentsNav activeSection={activeSection} />
+      <div></div>
+      <div>
+        <ContentsNav />
       </div>
     </div>
   );
