@@ -1,6 +1,5 @@
 'use client';
 
-import { Title } from '@/app/normal-header/main/main-contents/article/title';
 import { useEffect, useRef } from 'react';
 import styles from './styles.module.css';
 
@@ -45,7 +44,6 @@ export const Article = ({ setActiveSection }: Props) => {
 
   return (
     <div className={styles.root}>
-      <Title />
       <section
         className={styles.section}
         id="section1"
