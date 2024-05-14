@@ -40,7 +40,7 @@
 
 .login {
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: bold;
   line-height: 1.8;
   min-height: 2.125rem;
   min-width: 4rem;
@@ -56,7 +56,7 @@
 
 .registrations {
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: bold;
   line-height: 1.8;
   min-height: 2.125rem;
   min-width: 4rem;

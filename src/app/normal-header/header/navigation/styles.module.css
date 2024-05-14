@@ -1,7 +1,7 @@
 .items {
   display: flex;
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: bold;
   padding: 0 2rem;
   width: 100%;
 }
@@ -28,6 +28,6 @@
   border-radius: 0.25rem;
   color: #357a00;
   font-size: 0.625rem;
-  font-weight: 600;
+  font-weight: bold;
   padding-inline: 0.25rem;
 }
