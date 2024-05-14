@@ -1,16 +1,18 @@
-.items {
+.root {
   display: flex;
   font-size: 0.875rem;
   font-weight: bold;
   padding: 0 2rem;
+  margin-top: 0.5rem;
   width: 100%;
+  height: 2.5rem;
 }
 
 .item {
-  align-items: center;
-  color: rgb(0 0 0 / 60%);
   display: flex;
   position: relative;
+  align-items: center;
+  color: rgb(0 0 0 / 60%);
   padding: 0.25rem 0.75rem;
   margin: 0.25rem 0;
   text-decoration: none;
@@ -23,11 +25,11 @@
 }
 
 .chip {
-  margin-left: 0.25rem;
   background-color: #dff4cf;
-  border-radius: 0.25rem;
   color: #357a00;
+  border-radius: 0.25rem;
   font-size: 0.625rem;
   font-weight: bold;
-  padding-inline: 0.25rem;
+  padding: 0.25rem;
+  margin-left: 0.25rem;
 }

@@ -15,12 +15,16 @@ export const UserActionBar = () => {
           </span>
           <input type="search" placeholder="記事、質問を検索" className={styles.input}></input>
         </form>
-        <a href="" className={styles.login}>
-          ログイン
-        </a>
-        <a href="" className={styles.registrations}>
-          新規登録
-        </a>
+        <div className={styles.wrap}>
+          <a href="" className={styles.login}>
+            ログイン
+          </a>
+        </div>
+        <div className={styles.wrap}>
+          <a href="" className={styles.registrations}>
+            新規登録
+          </a>
+        </div>
       </div>
     </div>
   );
