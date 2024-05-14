@@ -1,6 +1,5 @@
 'use client';
 
-import { BannerAdArea } from '@/app/normal-header/main/right-side-panel/banner-ad-area';
 import { ContentsNav } from '@/app/normal-header/main/right-side-panel/contents-nav';
 import { useEffect, useRef, useState } from 'react';
 import styles from './styles.module.css';
@@ -28,10 +27,7 @@ export const RightSidePanel = ({ activeSection }: Props) => {
 
   return (
     <div className={styles.root}>
-      <div ref={ref}>
-        <BannerAdArea />
-        <BannerAdArea />
-      </div>
+      <div ref={ref}></div>
       <div className={isFixed ? styles.navFixed : ''} style={{ top: isFixed ? 0 : bannerBottom }}>
         <ContentsNav activeSection={activeSection} />
       </div>
