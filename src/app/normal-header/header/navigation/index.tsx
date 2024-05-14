@@ -2,7 +2,7 @@ import styles from './styles.module.css';
 
 export const Navigation = () => {
   return (
-    <div className={styles.items}>
+    <nav className={styles.items}>
       <a href="" className={styles.item}>
         ナビ１
       </a>
@@ -22,6 +22,6 @@ export const Navigation = () => {
       <a href="" className={styles.item}>
         ナビ６
       </a>
-    </div>
+    </nav>
   );
 };
