@@ -1,0 +1,48 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  background: #f3f3f3;
+  padding: 16px 95px;
+}
+
+.lists {
+  display: flex;
+}
+
+.list {
+  list-style: none;
+}
+
+.item {
+  margin-bottom: 8px;
+}
+
+.form {
+  position: relative;
+}
+
+.icon {
+  height: 1rem;
+  width: 1rem;
+  left: 0.5rem;
+  position: absolute;
+  top: 12%;
+  transform: translateY(-50%);
+  color: rgb(0 0 0 / 38%);
+}
+
+.input {
+  height: 40px;
+  padding: 0 80px 0 40px;
+  font-size: 14px;
+  border: 1px solid #000000;
+}
+
+.button {
+  width: 75px;
+  height: 40px;
+  background: #000000;
+  color: #ffffff;
+  font-size: 14px;
+}
