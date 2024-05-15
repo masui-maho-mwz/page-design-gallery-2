@@ -18,3 +18,14 @@
 .item:hover {
   color: #999999;
 }
+
+.arrow::after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #0868a8;
+}

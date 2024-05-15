@@ -18,12 +18,12 @@ export const MenuList = ({ setIsHovering }: Props) => {
         </a>
       </li>
       <li onMouseEnter={() => setIsHovering(true)} onMouseLeave={() => setIsHovering(false)}>
-        <a href="" className={styles.item}>
+        <a href="" className={`${styles.item} ${styles.arrow}`}>
           リンク３
         </a>
       </li>
       <li>
-        <a href="" className={styles.item}>
+        <a href="" className={`${styles.item} ${styles.arrow}`}>
           リンク４
         </a>
       </li>
