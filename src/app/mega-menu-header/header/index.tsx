@@ -1,16 +1,22 @@
+'use client';
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 import { AbstractLogo } from '@/app/components/elements/logos/tech-quest-logo';
+import { NavMenu } from '@/app/mega-menu-header/header/nav-menu';
 import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ListIcon from '@mui/icons-material/List';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import SearchIcon from '@mui/icons-material/Search';
+import { useState } from 'react';
 import styles from './styles.module.css';
 
 export const Header = () => {
+  const [isHovering, setIsHovering] = useState(false);
+
   return (
     <div className={styles.root}>
       <h1 className={styles.title}>
@@ -21,7 +27,8 @@ export const Header = () => {
           タイトル
         </a>
       </h1>
-      {/* TODO: <nav>クリック後に開くサービス一覧</nav> */}
+      <NavMenu isHovering={isHovering} />
+
       <ul className={styles.items}>
         <li>
           <a href="" className={styles.item}>
@@ -33,7 +40,7 @@ export const Header = () => {
             リンク２
           </a>
         </li>
-        <li>
+        <li onMouseEnter={() => setIsHovering(true)} onMouseLeave={() => setIsHovering(false)}>
           <a href="" className={styles.item}>
             <ListIcon className={styles.icon} />
             リンク３
