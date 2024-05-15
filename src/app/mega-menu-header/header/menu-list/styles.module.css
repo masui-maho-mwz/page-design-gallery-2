@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  padding: 0 15px;
+  text-decoration: none;
+  color: #0868a8;
+  border-right: 1px solid #999999;
+}
+
+.item:hover {
+  color: #999999;
+}
+
+.icon {
+  margin-right: 0.25rem;
+}
+
+.search {
+  width: 75px;
+}
