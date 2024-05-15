@@ -23,10 +23,6 @@ export const Slider = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
       >
         <SwiperSlide className={styles.items}>Slide 1</SwiperSlide>
