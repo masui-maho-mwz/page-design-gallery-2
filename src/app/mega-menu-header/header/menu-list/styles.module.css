@@ -3,9 +3,16 @@
   list-style: none;
   align-items: center;
   margin-right: 2rem;
+  height: 100%;
 }
 
-.item {
+.list {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.link {
   display: flex;
   align-items: center;
   font-size: 0.75rem;

@@ -11,12 +11,12 @@ import { useState } from 'react';
 import styles from './styles.module.css';
 
 export const Header = () => {
-  const [isHovering, setIsHovering] = useState(false);
+  const [isHovering, setIsHovering] = useState<string | null>(null);
 
   return (
     <div className={styles.root}>
       <LogoAndTitle />
-      <NavMenu isHovering={isHovering} />
+      <NavMenu isHovering={isHovering} setIsHovering={setIsHovering} />
       <MenuList setIsHovering={setIsHovering} />
     </div>
   );
