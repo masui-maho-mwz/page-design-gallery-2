@@ -18,38 +18,38 @@ export const Header = () => {
           <AbstractLogo />
         </a>
         <a href="" className={styles.text}>
-          よく生きる
+          タイトル
         </a>
       </h1>
       {/* TODO: <nav>クリック後に開くサービス一覧</nav> */}
       <ul className={styles.items}>
         <li>
           <a href="" className={styles.item}>
-            グループについて
+            リンク１
           </a>
         </li>
         <li>
           <a href="" className={styles.item}>
-            ホールディングス
+            リンク２
           </a>
         </li>
         <li>
           <a href="" className={styles.item}>
             <ListIcon className={styles.icon} />
-            サービス一覧
+            リンク３
             <KeyboardArrowDownIcon />
           </a>
         </li>
         <li>
           <a href="" className={styles.item}>
             <LocalPhoneIcon className={styles.icon} />
-            お問い合わせ
+            リンク４
           </a>
         </li>
         <li>
           <a href="" className={styles.item}>
             <CardGiftcardIcon className={styles.icon} />
-            キャンペーン
+            リンク５
           </a>
         </li>
         <li className={styles.item}>

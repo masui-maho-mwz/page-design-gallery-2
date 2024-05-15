@@ -14,9 +14,7 @@ export const Slider = () => {
     <div className={styles.root}>
       <Swiper
         className={styles.swiper}
-        slidesPerView={'auto'} // TODO: 有無によって見た目の変化ないように見える
-        centeredSlides={true} // 有無によって見た目の変化ないように見える
-        spaceBetween={30} // 有無によって見た目の変化ないように見える
+        slidesPerView={'auto'}
         loop={true}
         speed={2000}
         autoplay={{
@@ -25,15 +23,12 @@ export const Slider = () => {
         }}
         modules={[Autoplay, Pagination, Navigation]}
       >
-        <SwiperSlide className={styles.items}>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide className={styles.slide1}>Slide 1</SwiperSlide>
+        <SwiperSlide className={styles.slide2}>Slide 2</SwiperSlide>
+        <SwiperSlide className={styles.slide3}>Slide 3</SwiperSlide>
+        <SwiperSlide className={styles.slide4}>Slide 4</SwiperSlide>
+        <SwiperSlide className={styles.slide5}>Slide 5</SwiperSlide>
+        <SwiperSlide className={styles.slide6}>Slide 6</SwiperSlide>
       </Swiper>
     </div>
   );
