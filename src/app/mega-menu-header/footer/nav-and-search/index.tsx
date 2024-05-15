@@ -6,7 +6,7 @@ export const NavAndSearch = () => {
   const navItems2 = ['ナビ２', 'ナビ２', 'ナビ２', 'ナビ２'];
 
   return (
-    <nav className={styles.nav}>
+    <nav className={styles.root}>
       <div className={styles.lists}>
         <ul className={styles.list}>
           {navItems1.map((item, index) => (
