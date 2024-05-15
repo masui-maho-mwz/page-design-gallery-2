@@ -63,7 +63,6 @@ export const Header = () => {
           <SearchIcon className={styles.search} />
         </li>
       </ul>
-      {/* TODO: <ul>虫眼鏡ホバーで表示される検索窓的なやつ</ul> */}
     </div>
   );
 };
