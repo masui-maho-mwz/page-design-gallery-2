@@ -22,19 +22,9 @@
   position: relative;
 }
 
-.icon {
-  height: 1rem;
-  width: 1rem;
-  left: 0.5rem;
-  position: absolute;
-  top: 12%;
-  transform: translateY(-50%);
-  color: rgb(0 0 0 / 38%);
-}
-
 .input {
   height: 2.5rem;
-  padding: 0 5rem 0 2.5rem;
+  padding: 0 5rem 0 1rem;
   font-size: 0.75rem;
   border: 1px solid #000000;
 }

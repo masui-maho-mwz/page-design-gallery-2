@@ -1,4 +1,3 @@
-import SearchIcon from '@mui/icons-material/Search';
 import styles from './styles.module.css';
 
 export const NavAndSearch = () => {
@@ -24,9 +23,6 @@ export const NavAndSearch = () => {
         </ul>
       </div>
       <form className={styles.form}>
-        <span className={styles.icon}>
-          <SearchIcon />
-        </span>
         <input type="text" placeholder="何かお探しですか？" className={styles.input} />
         <button className={styles.button}>検索</button>
       </form>
