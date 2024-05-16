@@ -19,7 +19,7 @@ export const MenuList = ({ setIsHovering }: Props) => {
       </li>
       <li
         className={styles.list}
-        onMouseEnter={() => setIsHovering('navMenu3')}
+        onMouseEnter={() => setIsHovering('megaMenu3')}
         onMouseLeave={() => setIsHovering(null)}
       >
         <a href="" className={`${styles.link} ${styles.arrow}`}>
@@ -28,7 +28,7 @@ export const MenuList = ({ setIsHovering }: Props) => {
       </li>
       <li
         className={styles.list}
-        onMouseEnter={() => setIsHovering('navMenu4')}
+        onMouseEnter={() => setIsHovering('megaMenu4')}
         onMouseLeave={() => setIsHovering(null)}
       >
         <a href="" className={`${styles.link} ${styles.arrow}`}>

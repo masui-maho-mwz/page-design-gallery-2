@@ -1,5 +1,5 @@
-import { FaqList } from '@/app/mega-menu-header/header/nav-menu/menu4/faq-list';
-import { TermsList } from '@/app/mega-menu-header/header/nav-menu/menu4/terms-list';
+import { FaqList } from '@/app/mega-menu-header/header/mega-menu/menu4/faq-list';
+import { TermsList } from '@/app/mega-menu-header/header/mega-menu/menu4/terms-list';
 import styles from './styles.module.css';
 
 export const Menu4 = () => {

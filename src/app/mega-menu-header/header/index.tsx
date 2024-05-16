@@ -5,8 +5,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 import { LogoAndTitle } from '@/app/mega-menu-header/header/logo-and-title';
+import { MegaMenu } from '@/app/mega-menu-header/header/mega-menu';
 import { MenuList } from '@/app/mega-menu-header/header/menu-list';
-import { NavMenu } from '@/app/mega-menu-header/header/nav-menu';
 import { useState } from 'react';
 import styles from './styles.module.css';
 
@@ -16,7 +16,7 @@ export const Header = () => {
   return (
     <div className={styles.root}>
       <LogoAndTitle />
-      <NavMenu isHovering={isHovering} setIsHovering={setIsHovering} />
+      <MegaMenu isHovering={isHovering} setIsHovering={setIsHovering} />
       <MenuList setIsHovering={setIsHovering} />
     </div>
   );
