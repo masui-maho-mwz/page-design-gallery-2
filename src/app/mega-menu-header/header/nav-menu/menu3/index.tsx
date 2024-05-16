@@ -2,7 +2,7 @@ import { CategoryList } from '@/app/mega-menu-header/header/nav-menu/menu3/categ
 
 import { OtherList } from '@/app/mega-menu-header/header/nav-menu/menu3/other-list';
 import { ServiceList } from '@/app/mega-menu-header/header/nav-menu/menu3/service-list';
-import styles from './styles.module.css';
+import styles from '@/app/mega-menu-header/header/nav-menu/menu3/styles.module.css';
 
 export const Menu3 = () => {
   return (

@@ -1,6 +1,6 @@
 import { List } from '@/app/mega-menu-header/header/nav-menu/list';
+import { others } from '@/app/mega-menu-header/header/nav-menu/menu3/data';
 import styles from '@/app/mega-menu-header/header/nav-menu/menu3/styles.module.css';
-import { others } from '../data';
 
 export const OtherList = () => (
   <div className={styles.contents}>
