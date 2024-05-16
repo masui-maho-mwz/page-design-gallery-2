@@ -1,3 +1,4 @@
+import { Menu3 } from '@/app/mega-menu-header/header/nav-menu/menu3';
 import styles from './styles.module.css';
 
 type Props = {
@@ -10,11 +11,11 @@ export const NavMenu = ({ isHovering, setIsHovering }: Props) => {
 
   return (
     <nav
-      className={styles.navMenu}
+      className={styles.root}
       onMouseEnter={() => setIsHovering(isHovering)}
       onMouseLeave={() => setIsHovering(null)}
     >
-      {isHovering === 'navMenu3' ? 'NavMenu3' : 'NavMenu4'}
+      {isHovering === 'navMenu3' ? <Menu3 /> : 'NavMenu4'}
     </nav>
   );
 };
