@@ -25,19 +25,19 @@ export const Slider = () => {
         modules={[Autoplay, Pagination, Navigation]}
       >
         <SwiperSlide>
-          <Image src={dog} alt="dog" />
+          <Image src={dog} alt="dog" className={styles.image} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={sea} alt="sea" />
+          <Image src={sea} alt="sea" className={styles.image} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={cat} alt="cat" />
+          <Image src={cat} alt="cat" className={styles.image} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={shadow} alt="shadow" />
+          <Image src={shadow} alt="shadow" className={styles.image} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={skyEarth} alt="sky-earth" />
+          <Image src={skyEarth} alt="sky-earth" className={styles.image} />
         </SwiperSlide>
       </Swiper>
     </div>
