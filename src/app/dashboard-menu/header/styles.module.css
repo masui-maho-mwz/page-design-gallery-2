@@ -1,21 +1,43 @@
 .root {
-  background-color: bisque;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
-  flex-shrink: 0;
   position: fixed;
   top: 0px;
   left: auto;
   right: 0px;
-  color: rgb(255, 255, 255);
-  box-shadow: none;
   height: 80px;
   z-index: 1101;
-  backdrop-filter: blur(6px);
   background-color: rgba(249, 250, 251, 0.8);
-  /* TODO: わかりやすいように一旦色をつける */
-  background-color: bisque;
-  transition: height 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   width: calc(100% - 281px);
+}
+
+.wrap {
+  padding: 0 40px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  background-color: transparent;
+  border: 0px;
+  margin: 0px;
+  padding: 8px;
+  border-radius: 50%;
+  color: rgb(99, 115, 129);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  border: 0;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
 }
