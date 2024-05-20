@@ -17,9 +17,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
-.search {
+.searchIcon {
   background-color: transparent;
   border: 0px;
   margin: 0px;
@@ -40,4 +41,40 @@
   width: 40px;
   height: 40px;
   background-color: transparent;
+}
+
+.searchBar {
+  height: 92px;
+  padding: 0px 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  background-color: rgba(249, 250, 251, 0.8);
+  top: 100%;
+  left: 0px;
+  box-shadow: rgba(145, 158, 171, 0.16) 0px 8px 16px 0px;
+  transition: transform 225ms cubic-bezier(0, 0, 0.2, 1);
+  transform: translateY(-100%);
+  margin-top: 4px;
+}
+
+.active {
+  transform: translateY(0);
+}
+
+.input {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.searchButton {
+  border: 0px;
+  width: 80px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(24, 119, 242);
 }
