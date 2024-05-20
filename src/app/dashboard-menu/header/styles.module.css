@@ -1,0 +1,21 @@
+.root {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  position: fixed;
+  top: 0px;
+  left: auto;
+  right: 0px;
+  color: rgb(255, 255, 255);
+  box-shadow: none;
+  height: 80px;
+  z-index: 1101;
+  backdrop-filter: blur(6px);
+  background-color: rgba(249, 250, 251, 0.8);
+  /* TODO: わかりやすいように一旦色をつける */
+  background-color: bisque;
+  transition: height 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  width: calc(100% - 281px);
+}
