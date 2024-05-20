@@ -1,0 +1,42 @@
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.button {
+  padding: 6px 16px;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(33, 43, 54);
+  border: rgb(33, 43, 54);
+  height: 40px;
+}
+
+.seach {
+  width: 280px;
+  height: 56px;
+  background-color: transparent;
+  border: 1px solid rgb(99, 115, 129);
+  border-radius: 8px;
+  padding: 9px 9px 9px 24px;
+}
+
+.input {
+  padding: 7.5px 4px 7.5px 5px;
+  background-color: transparent;
+  border: none;
+}
+
+.select {
+  border-radius: 8px;
+  width: 93px;
+  height: 40px;
+  text-align: center;
+}
