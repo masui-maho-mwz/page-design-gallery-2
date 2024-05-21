@@ -1,7 +1,7 @@
-import { Header } from '@/app/mega-menu-header/header';
-import { Slider } from '@/app/mega-menu-header/slider';
+import { Slider } from '@/app/mega-menu-header/components/slider';
 
-import { Footer } from '@/app/mega-menu-header/footer';
+import { Footer } from '@/app/mega-menu-header/components/footer';
+import { Header } from '@/app/mega-menu-header/components/header';
 import styles from './styles.module.css';
 
 export default function MegaMenuHeaderHome() {

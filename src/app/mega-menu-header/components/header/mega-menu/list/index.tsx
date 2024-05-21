@@ -1,5 +1,4 @@
-import styles from '@/app/mega-menu-header/header/mega-menu/menu3/styles.module.css';
-
+import styles from '@/app/mega-menu-header/components/header/mega-menu/menu3/styles.module.css';
 type Props = {
   items: string[];
   className: string;

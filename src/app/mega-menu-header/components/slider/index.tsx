@@ -7,11 +7,11 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import styles from './styles.module.css';
 
-import cat from '../../../../public/cat.jpg';
-import dog from '../../../../public/dog.jpg';
-import sea from '../../../../public/sea.jpg';
-import shadow from '../../../../public/shadow.jpg';
-import skyEarth from '../../../../public/sky-earth.jpg';
+import cat from '../../../../../public/cat.jpg';
+import dog from '../../../../../public/dog.jpg';
+import sea from '../../../../../public/sea.jpg';
+import shadow from '../../../../../public/shadow.jpg';
+import skyEarth from '../../../../../public/sky-earth.jpg';
 
 export const Slider = () => {
   return (

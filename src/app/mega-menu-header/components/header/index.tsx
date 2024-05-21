@@ -4,9 +4,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import { LogoAndTitle } from '@/app/mega-menu-header/header/logo-and-title';
-import { MegaMenu } from '@/app/mega-menu-header/header/mega-menu';
-import { MenuList } from '@/app/mega-menu-header/header/menu-list';
+import { LogoAndTitle } from '@/app/mega-menu-header/components/header/logo-and-title';
+import { MegaMenu } from '@/app/mega-menu-header/components/header/mega-menu';
+import { MenuList } from '@/app/mega-menu-header/components/header/menu-list';
 import { useState } from 'react';
 import styles from './styles.module.css';
 

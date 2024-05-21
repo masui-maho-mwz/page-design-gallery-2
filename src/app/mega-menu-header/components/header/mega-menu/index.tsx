@@ -1,5 +1,5 @@
-import { Menu3 } from '@/app/mega-menu-header/header/mega-menu/menu3';
-import { Menu4 } from '@/app/mega-menu-header/header/mega-menu/menu4';
+import { Menu3 } from '@/app/mega-menu-header/components/header/mega-menu/menu3';
+import { Menu4 } from '@/app/mega-menu-header/components/header/mega-menu/menu4';
 import styles from './styles.module.css';
 
 type Props = {
