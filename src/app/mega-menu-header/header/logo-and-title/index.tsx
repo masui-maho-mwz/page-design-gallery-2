@@ -1,4 +1,4 @@
-import { AbstractLogo } from '@/app/mega-menu-header/components/tech-quest-logo';
+import { AbstractLogo } from '@/app/mega-menu-header/components/icons/tech-quest-logo';
 import styles from './styles.module.css';
 
 export const LogoAndTitle = () => {
