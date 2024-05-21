@@ -1,18 +1,18 @@
 export const UnionJack = () => {
   return (
-    <svg width="25" height="15" viewBox="0 0 60 30">
-      <rect width="60" height="30" fill="#012169" />
-      <g stroke="#fff" stroke-width="6">
-        <path d="M0 0l60 30M60 0L0 30" />
+    <svg width="25" height="20" viewBox="0 0 60 40">
+      <rect width="60" height="40" fill="#1E3A8A" />
+      <g stroke="#fff" stroke-width="8">
+        <path d="M0 0l60 40M60 0L0 40" />
       </g>
-      <g stroke="#C8102E" stroke-width="4">
-        <path d="M0 0l60 30M60 0L0 30" />
+      <g stroke="#E60026" stroke-width="5">
+        <path d="M0 0l60 40M60 0L0 40" />
       </g>
-      <g stroke="#fff" stroke-width="10">
-        <path d="M30 0v30M0 15h60" />
+      <g stroke="#fff" stroke-width="13">
+        <path d="M30 0v40M0 20h60" />
       </g>
-      <g stroke="#C8102E" stroke-width="6">
-        <path d="M30 0v30M0 15h60" />
+      <g stroke="#E60026" stroke-width="8">
+        <path d="M30 0v40M0 20h60" />
       </g>
     </svg>
   );
