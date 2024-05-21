@@ -1,14 +1,6 @@
-import styles from './styles.module.css';
-
 export const AbstractLogo = () => {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 217.94 225.33"
-      role="img"
-      aria-label="Logo"
-      className={styles.root}
-    >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 217.94 225.33" role="img" aria-label="Logo">
       <defs></defs>
       <g data-name="layer1">
         <g data-name="layer2">

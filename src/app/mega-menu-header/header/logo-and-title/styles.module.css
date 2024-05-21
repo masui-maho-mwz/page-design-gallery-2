@@ -5,8 +5,8 @@
 }
 
 .logo {
-  display: flex;
-  align-items: center;
+  width: 25px;
+  height: 25px;
 }
 
 .text {

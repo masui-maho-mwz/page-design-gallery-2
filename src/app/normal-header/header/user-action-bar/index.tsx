@@ -1,10 +1,10 @@
-import { AbstractLogo } from '@/app/components/elements/logos/tech-quest-logo';
+import { AbstractLogo } from '@/app/normal-header/components/tech-quest-logo';
 import styles from './styles.module.css';
 
 export const UserActionBar = () => {
   return (
     <div className={styles.root}>
-      <div>
+      <div className={styles.logo}>
         <AbstractLogo />
       </div>
       <div className={styles.menu}>
