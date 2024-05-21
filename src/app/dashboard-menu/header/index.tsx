@@ -1,5 +1,6 @@
 'use client';
 
+import { Loupe } from '@/app/components/elements/loupe';
 import { useEffect, useRef, useState } from 'react';
 import styles from './styles.module.css';
 
@@ -33,11 +34,14 @@ export const Header = () => {
     <header className={styles.root}>
       <div className={styles.wrap}>
         <button className={styles.searchIcon} onClick={toggleSearch}>
-          虫眼鏡あいこん
+          <Loupe />
         </button>
         {isSearch && (
           <div className={`${styles.searchBar} ${isSearch ? styles.rootVisible : ''}`} ref={ref}>
-            <input type="text" placeholder="Search…" className={styles.input} />
+            <div className={styles.inputWrapper}>
+              <Loupe />
+              <input type="text" placeholder="Search…" className={styles.input} />
+            </div>
             <button className={styles.searchButton}>Search</button>
           </div>
         )}
