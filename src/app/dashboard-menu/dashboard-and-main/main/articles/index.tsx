@@ -1,3 +1,4 @@
+import { Info } from '@/app/dashboard-menu/dashboard-and-main/main/articles/info';
 import styles from './styles.module.css';
 
 const articlesData = [
@@ -41,7 +42,7 @@ export const Articles = () => {
             <div className={styles.article}>
               <div className={styles.date}>{article.date}</div>
               <div className={styles.title}>{article.title}</div>
-              <div className={styles.info}>info</div>
+              <Info />
             </div>
           </div>
         </div>
