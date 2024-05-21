@@ -1,6 +1,6 @@
-import { Footer } from '@/app/normal-header/footer';
-import { Header } from '@/app/normal-header/header';
-import { Main } from '@/app/normal-header/main';
+import { Footer } from '@/app/normal-header/components/footer';
+import { Header } from '@/app/normal-header/components/header';
+import { Main } from '@/app/normal-header/components/main';
 
 export default function NomalHeaderHome() {
   return (
