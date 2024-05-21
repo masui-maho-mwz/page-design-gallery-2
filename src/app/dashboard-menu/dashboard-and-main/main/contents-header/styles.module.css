@@ -32,7 +32,8 @@
 .input {
   padding: 7.5px 4px 7.5px 8px;
   background-color: transparent;
-  border: none;
+  border-color: transparent;
+  outline: none;
 }
 
 .select {
