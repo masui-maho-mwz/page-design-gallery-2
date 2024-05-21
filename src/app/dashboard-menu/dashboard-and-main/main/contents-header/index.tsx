@@ -1,3 +1,4 @@
+import { Loupe } from '@/app/components/elements/loupe';
 import styles from './styles.module.css';
 
 export const ContentsHeader = () => {
@@ -9,7 +10,10 @@ export const ContentsHeader = () => {
       </div>
       <div className={styles.wrap}>
         <div className={styles.seach}>
-          <input type="text" className={styles.input} placeholder="Seach post..." />
+          <div className={styles.icon}>
+            <Loupe />
+          </div>
+          <input type="text" className={styles.input} placeholder="Search post..." />
         </div>
         <div>
           <select name="" id="" className={styles.select}>
