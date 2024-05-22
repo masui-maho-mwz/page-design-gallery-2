@@ -2,7 +2,7 @@ import styles from './styles.module.css';
 
 type Props = {
   title: string;
-  items: string[][];
+  items: { text: string; href: string }[][];
   width: number;
   showBorderRight?: boolean;
 };
@@ -19,7 +19,9 @@ export const MenuListContainer = (props: Props) => {
           <ul key={index} className={styles.list}>
             {itemList.map((item, itemIndex) => (
               <li key={itemIndex} className={styles.link}>
-                {item}
+                <a href={item.href} className={styles.anchor}>
+                  {item.text}
+                </a>
               </li>
             ))}
           </ul>
