@@ -1,7 +1,9 @@
 .root {
-  width: 450px;
   padding: 0 32px;
   margin-bottom: 10px;
+}
+
+.withBorder {
   border-right: 1px solid #cccccc;
 }
 
@@ -12,4 +14,14 @@
 .items {
   display: flex;
   gap: 8rem;
+  align-items: flex-start;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  margin: 0.75rem 0;
 }
