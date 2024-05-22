@@ -10,15 +10,14 @@
 .link {
   color: rgb(0 0 0 / 60%);
   text-decoration: none;
-  width: 100%;
-  display: inline-block;
 }
 
 .link:hover {
   background-color: #edeeee;
   color: rgb(0 0 0 / 87%);
   font-weight: bold;
-  padding: 0.25rem 0 0.25rem 0.5rem;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 }
 
 .index {
