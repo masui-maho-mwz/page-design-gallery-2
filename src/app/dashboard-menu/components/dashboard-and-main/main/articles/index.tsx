@@ -1,4 +1,4 @@
-import { Info } from '@/app/dashboard-menu/dashboard-and-main/main/articles/info';
+import { Info } from '@/app/dashboard-menu/components/dashboard-and-main/main/articles/info';
 import styles from './styles.module.css';
 
 const articlesData = [

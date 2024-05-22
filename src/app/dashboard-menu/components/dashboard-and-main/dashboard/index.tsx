@@ -1,6 +1,6 @@
+import { Nav } from '@/app/dashboard-menu/components/dashboard-and-main/dashboard/nav';
+import { Profile } from '@/app/dashboard-menu/components/dashboard-and-main/dashboard/profile';
 import { AbstractLogo } from '@/app/dashboard-menu/components/icons/tech-quest-logo';
-import { Nav } from '@/app/dashboard-menu/dashboard-and-main/dashboard/nav';
-import { Profile } from '@/app/dashboard-menu/dashboard-and-main/dashboard/profile';
 import styles from './styles.module.css';
 
 export const DashBord = () => {

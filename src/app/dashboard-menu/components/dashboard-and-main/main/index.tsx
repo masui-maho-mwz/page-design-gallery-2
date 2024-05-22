@@ -1,5 +1,5 @@
-import { Articles } from '@/app/dashboard-menu/dashboard-and-main/main/articles';
-import { ContentsHeader } from '@/app/dashboard-menu/dashboard-and-main/main/contents-header';
+import { Articles } from '@/app/dashboard-menu/components/dashboard-and-main/main/articles';
+import { ContentsHeader } from '@/app/dashboard-menu/components/dashboard-and-main/main/contents-header';
 import styles from './styles.module.css';
 
 export const Main = () => {

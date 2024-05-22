@@ -3,7 +3,7 @@
 import { Bell } from '@/app/components/elements/bell';
 import { Loupe } from '@/app/components/elements/loupe';
 import { UnionJack } from '@/app/components/elements/union-jack';
-import { SearchBar } from '@/app/dashboard-menu/header/search-bar';
+import { SearchBar } from '@/app/dashboard-menu/components/header/search-bar';
 import { useState } from 'react';
 import styles from './styles.module.css';
 
