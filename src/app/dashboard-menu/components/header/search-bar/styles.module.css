@@ -20,13 +20,13 @@
   display: flex;
   align-items: center;
   border: none;
+  width: 32px;
+  height: 32px;
 }
 
 .wrap svg {
   position: absolute;
   left: 10px;
-  width: 24px;
-  height: 24px;
 }
 
 .input {
