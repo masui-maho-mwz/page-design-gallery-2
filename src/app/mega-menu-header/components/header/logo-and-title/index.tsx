@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 
 export const LogoAndTitle = () => {
   return (
-    <h1 className={styles.title}>
+    <h1 className={styles.root}>
       <a href="" className={styles.logo}>
         <AbstractLogo />
       </a>

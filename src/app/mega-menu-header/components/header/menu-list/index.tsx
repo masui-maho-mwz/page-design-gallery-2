@@ -7,12 +7,12 @@ type Props = {
 export const MenuList = ({ setIsHovering }: Props) => {
   return (
     <ul className={styles.root}>
-      <li>
+      <li className={styles.list}>
         <a href="" className={styles.link}>
           リンク１
         </a>
       </li>
-      <li>
+      <li className={styles.list}>
         <a href="" className={styles.link}>
           リンク２
         </a>

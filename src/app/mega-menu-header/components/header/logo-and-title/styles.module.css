@@ -1,12 +1,13 @@
-.title {
-  margin-left: 1.5rem;
+.root {
   display: flex;
   align-items: center;
 }
 
 .logo {
-  width: 25px;
-  height: 25px;
+  display: flex;
+  align-items: center;
+  width: 24px;
+  height: 24px;
 }
 
 .text {

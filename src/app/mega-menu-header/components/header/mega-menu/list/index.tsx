@@ -1,11 +1,10 @@
-import styles from '@/app/mega-menu-header/components/header/mega-menu/menu3/styles.module.css';
+import styles from './styles.module.css';
 type Props = {
   items: string[];
-  className: string;
 };
 
-export const List = ({ items, className }: Props) => (
-  <ul className={className}>
+export const List = ({ items }: Props) => (
+  <ul className={styles.root}>
     {items.map((item, index) => (
       <li key={index} className={styles.link}>
         {item}

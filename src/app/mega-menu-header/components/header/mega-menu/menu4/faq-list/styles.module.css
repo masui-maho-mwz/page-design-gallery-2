@@ -1,0 +1,13 @@
+.root {
+  width: 450px;
+  border-right: 1px solid #cccccc;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.items {
+  display: flex;
+  gap: 4rem;
+}

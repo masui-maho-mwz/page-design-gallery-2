@@ -1,0 +1,14 @@
+.root {
+  width: 225px;
+  padding: 0 32px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.item {
+  /* こ要素は１つですが、サービス一覧と揃えるために display: flex; を当てています */
+  display: flex;
+}

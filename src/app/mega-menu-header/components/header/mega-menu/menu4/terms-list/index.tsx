@@ -1,13 +1,13 @@
 import { List } from '@/app/mega-menu-header/components/header/mega-menu/list';
-import { terms1, terms2 } from '@/app/mega-menu-header/components/header/mega-menu/menu4/data';
-import styles from '@/app/mega-menu-header/components/header/mega-menu/menu4/styles.module.css';
+import { terms1, terms2 } from '@/app/mega-menu-header/components/header/mega-menu/menu4/menu4-data';
+import styles from './styles.module.css';
 
 export const TermsList = () => (
-  <div className={styles.content}>
+  <div className={styles.root}>
     <div className={styles.title}>利用規約</div>
     <div className={styles.items}>
-      <List items={terms1} className={styles.list} />
-      <List items={terms2} className={styles.list2} />
+      <List items={terms1} />
+      <List items={terms2} />
     </div>
   </div>
 );

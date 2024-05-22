@@ -1,13 +1,13 @@
 import { List } from '@/app/mega-menu-header/components/header/mega-menu/list';
-import { faq1, faq2 } from '@/app/mega-menu-header/components/header/mega-menu/menu4/data';
-import styles from '@/app/mega-menu-header/components/header/mega-menu/menu4/styles.module.css';
+import { faq1, faq2 } from '@/app/mega-menu-header/components/header/mega-menu/menu4/menu4-data';
+import styles from './styles.module.css';
 
 export const FaqList = () => (
-  <div className={`${styles.content} ${styles.contentWithBorder}`}>
+  <div className={styles.root}>
     <div className={styles.title}>よくある質問</div>
     <div className={styles.items}>
-      <List items={faq1} className={styles.list} />
-      <List items={faq2} className={styles.list2} />
+      <List items={faq1} />
+      <List items={faq2} />
     </div>
   </div>
 );
