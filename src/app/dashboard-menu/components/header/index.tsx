@@ -1,9 +1,9 @@
 'use client';
 
-import { Bell } from '@/app/components/elements/bell';
-import { Loupe } from '@/app/components/elements/loupe';
-import { UnionJack } from '@/app/components/elements/union-jack';
 import { SearchBar } from '@/app/dashboard-menu/components/header/search-bar';
+import { Bell } from '@/app/dashboard-menu/components/icons/bell';
+import { Loupe } from '@/app/dashboard-menu/components/icons/loupe';
+import { UnionJack } from '@/app/dashboard-menu/components/icons/union-jack';
 import { useState } from 'react';
 import styles from './styles.module.css';
 

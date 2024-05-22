@@ -1,4 +1,4 @@
-import { Loupe } from '@/app/components/elements/loupe';
+import { Loupe } from '@/app/dashboard-menu/components/icons/loupe';
 import styles from './styles.module.css';
 
 export const ContentsHeader = () => {

@@ -1,6 +1,6 @@
 'use client';
 
-import { Loupe } from '@/app/components/elements/loupe';
+import { Loupe } from '@/app/dashboard-menu/components/icons/loupe';
 import { useEffect, useRef } from 'react';
 import styles from './styles.module.css';
 
