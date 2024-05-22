@@ -11,12 +11,10 @@ export const UserActionBar = () => {
         <form action="" aria-label="検索" className={styles.form}>
           <input type="search" placeholder="検索" className={styles.input}></input>
         </form>
-        <div className={styles.wrap}>
+        <div className={styles.buttons}>
           <a href="" className={styles.login}>
             ログイン
           </a>
-        </div>
-        <div className={styles.wrap}>
           <a href="" className={styles.registrations}>
             新規登録
           </a>

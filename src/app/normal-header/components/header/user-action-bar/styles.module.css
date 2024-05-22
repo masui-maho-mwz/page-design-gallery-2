@@ -3,7 +3,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.025rem 2rem 0 2rem;
-  margin-top: 0.5rem;
 }
 
 .logo {
@@ -13,11 +12,12 @@
 
 .menu {
   display: flex;
+  gap: 16px;
+  height: 36px;
 }
 
 .form {
   width: 20rem;
-  margin-right: 1rem;
   position: relative;
 }
 
@@ -25,15 +25,16 @@
   background-color: #edeeee;
   border: none;
   border-radius: 0.5rem;
-  padding: 0.25rem 0.5rem 0.25rem 1rem;
+  padding: 4px 8px 4px 16px;
   width: 100%;
   height: 100%;
 }
 
-.wrap {
+.buttons {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 8px;
 }
 
 .login {
@@ -41,7 +42,6 @@
   font-weight: bold;
   color: #357a00;
   border: 0.0625rem solid #357a00;
-  margin-left: 0.25rem;
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
   text-decoration: none;
@@ -54,7 +54,6 @@
   border: 0.0625rem solid #357a00;
   border-radius: 0.5rem;
   color: rgb(255 255 255 / 92%);
-  margin-left: 0.5rem;
   padding: 0.5rem 1rem;
   text-decoration: none;
 }
