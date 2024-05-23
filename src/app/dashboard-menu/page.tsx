@@ -1,11 +1,11 @@
-import { DashBordAndMain } from '@/app/dashboard-menu/components/dashboard-and-main';
-import { Header } from '@/app/dashboard-menu/components/header';
+import { DashBord } from '@/app/dashboard-menu/components/dashboard-and-main/dashboard';
+import { Main } from '@/app/dashboard-menu/components/dashboard-and-main/main';
 
 export default function DashbordMenuHome() {
   return (
     <div>
-      <Header />
-      <DashBordAndMain />
+      <DashBord />
+      <Main />
     </div>
   );
 }
