@@ -1,5 +1,6 @@
 'use client';
 
+import { items } from '@/app/dashboard-menu/components/dashboard-and-main/dashboard/nav/items-data';
 import { useState } from 'react';
 import styles from './styles.module.css';
 
@@ -12,14 +13,14 @@ export const Nav = () => {
 
   return (
     <nav className={styles.root}>
-      {['ナビ１', 'ナビ２', 'ナビ３', 'ナビ４', 'ナビ５', 'ナビ６'].map((label, index) => (
+      {items.map((item, index) => (
         <a
           key={index}
           href="#"
           className={`${styles.link} ${index === activeIndex ? styles.active : ''}`}
           onClick={() => handleClick(index)}
         >
-          <div className={styles.label}>{label}</div>
+          <div className={styles.item}>{item}</div>
         </a>
       ))}
     </nav>

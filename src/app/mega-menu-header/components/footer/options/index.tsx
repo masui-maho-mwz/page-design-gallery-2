@@ -1,14 +1,8 @@
+import { links } from '@/app/mega-menu-header/components/footer/options/links-data';
 import { AbstractLogo } from '@/app/mega-menu-header/components/icons/tech-quest-logo';
 import styles from './styles.module.css';
 
 export const Options = () => {
-  const links = [
-    { url: '#', text: '利用者情報の取り扱いについて' },
-    { url: '#', text: '個人情報保護への取り組みについて' },
-    { url: '#', text: '会社案内' },
-    { url: '#', text: '電子公告' },
-  ];
-
   return (
     <div className={styles.root}>
       <div className={styles.wrap}>

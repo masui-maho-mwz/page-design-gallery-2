@@ -1,9 +1,7 @@
+import { navItems1, navItems2 } from '@/app/mega-menu-header/components/footer/nav-and-search/items-data';
 import styles from './styles.module.css';
 
 export const NavAndSearch = () => {
-  const navItems1 = ['ナビ１', 'ナビ１', 'ナビ１', 'ナビ１'];
-  const navItems2 = ['ナビ２', 'ナビ２', 'ナビ２', 'ナビ２'];
-
   return (
     <nav className={styles.root}>
       <div className={styles.lists}>
