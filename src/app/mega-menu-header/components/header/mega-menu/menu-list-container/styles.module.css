@@ -15,12 +15,14 @@
   display: flex;
   gap: 8rem;
   align-items: flex-start;
+  margin-top: 8px;
 }
 
 .list {
   padding: 0;
   list-style: none;
   width: 100%;
+  margin: 0;
 }
 
 .link {

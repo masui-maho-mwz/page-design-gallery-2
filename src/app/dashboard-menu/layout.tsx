@@ -1,3 +1,4 @@
+import { DashBord } from '@/app/dashboard-menu/components/dashboard-and-main/dashboard';
 import { Header } from '@/app/dashboard-menu/components/header';
 import type { Metadata } from 'next';
 
@@ -14,6 +15,7 @@ export default function DashboardMenuLayout({
   return (
     <div>
       <Header />
+      <DashBord />
       <main>{children}</main>
     </div>
   );

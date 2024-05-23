@@ -1,11 +1,14 @@
-import { DashBord } from '@/app/dashboard-menu/components/dashboard-and-main/dashboard';
-import { Main } from '@/app/dashboard-menu/components/dashboard-and-main/main';
+import { Articles } from '@/app/dashboard-menu/components/dashboard-and-main/main/articles';
+import { ContentsHeader } from '@/app/dashboard-menu/components/dashboard-and-main/main/contents-header';
+import styles from './styles.module.css';
 
-export default function DashbordMenuHome() {
+export default function Home() {
   return (
-    <div>
-      <DashBord />
-      <Main />
+    <div className={styles.root}>
+      <div className={styles.contents}>
+        <ContentsHeader />
+        <Articles />
+      </div>
     </div>
   );
 }

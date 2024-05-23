@@ -20,7 +20,7 @@ export const Nav = () => {
           className={`${styles.link} ${index === activeIndex ? styles.active : ''}`}
           onClick={() => handleClick(index)}
         >
-          <div className={styles.item}>{item}</div>
+          <div className={styles.label}>{item}</div>
         </a>
       ))}
     </nav>

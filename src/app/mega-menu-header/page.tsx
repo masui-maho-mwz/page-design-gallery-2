@@ -2,7 +2,7 @@ import { Slider } from '@/app/mega-menu-header/components/slider';
 
 import styles from './styles.module.css';
 
-export default function MegaMenuHeaderHome() {
+export default function Home() {
   return (
     <div>
       <Slider />
