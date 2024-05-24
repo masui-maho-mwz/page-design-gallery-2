@@ -1,5 +1,5 @@
 import { Nav } from '@/app/dashboard-menu/components/dashboard-and-main/dashboard/nav';
-import { items } from '@/app/dashboard-menu/components/dashboard-and-main/dashboard/nav/items-data';
+import { Navitems } from '@/app/dashboard-menu/components/dashboard-and-main/dashboard/nav/items-data';
 import { Profile } from '@/app/dashboard-menu/components/dashboard-and-main/dashboard/profile';
 import { AbstractLogo } from '@/app/dashboard-menu/components/icons/tech-quest-logo';
 import styles from './styles.module.css';
@@ -11,7 +11,7 @@ export const DashBord = () => {
         <AbstractLogo />
       </div>
       <Profile />
-      <Nav items={items} />
+      <Nav items={Navitems} />
     </div>
   );
 };

@@ -1,4 +1,4 @@
-export const items = [
+export const Navitems = [
   { id: 1, name: 'ナビ１', href: '#' },
   { id: 2, name: 'ナビ２', href: '#' },
   { id: 3, name: 'ナビ３', href: '#' },
