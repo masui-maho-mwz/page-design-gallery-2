@@ -13,10 +13,10 @@ export const UserActionBar = () => {
           <input type="search" placeholder="検索" className={styles.input}></input>
         </form>
         <div className={styles.buttons}>
-          <Link href="" className={styles.login}>
+          <Link href="" className={`${styles.login} ununderlined`}>
             ログイン
           </Link>
-          <Link href="" className={styles.registrations}>
+          <Link href="" className={`${styles.registrations} ununderlined`}>
             新規登録
           </Link>
         </div>
