@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './styles.module.css';
 
 type Props = {
@@ -8,32 +9,32 @@ export const MenuList = ({ setIsHovering }: Props) => {
   return (
     <ul className={styles.root}>
       <li className={styles.list}>
-        <a href="" className={styles.link}>
+        <Link href="" className={styles.link}>
           リンク１
-        </a>
+        </Link>
       </li>
       <li className={styles.list}>
-        <a href="" className={styles.link}>
+        <Link href="" className={styles.link}>
           リンク２
-        </a>
+        </Link>
       </li>
       <li
         className={styles.list}
         onMouseEnter={() => setIsHovering('megaMenu3')}
         onMouseLeave={() => setIsHovering(null)}
       >
-        <a href="" className={`${styles.link} ${styles.arrow}`}>
+        <Link href="" className={`${styles.link} ${styles.arrow}`}>
           リンク３
-        </a>
+        </Link>
       </li>
       <li
         className={styles.list}
         onMouseEnter={() => setIsHovering('megaMenu4')}
         onMouseLeave={() => setIsHovering(null)}
       >
-        <a href="" className={`${styles.link} ${styles.arrow}`}>
+        <Link href="" className={`${styles.link} ${styles.arrow}`}>
           リンク４
-        </a>
+        </Link>
       </li>
     </ul>
   );

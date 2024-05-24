@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './styles.module.css';
 
 type NavItem = {
@@ -12,9 +13,11 @@ type Props = {
 
 const NavList = ({ items }: { items: NavItem[] }) => (
   <ul className={styles.list}>
-    {items.map(({ id, name }) => (
+    {items.map(({ id, name, href }) => (
       <li key={id} className={styles.item}>
-        {name}
+        <Link href={href} className={styles.link}>
+          {name}
+        </Link>
       </li>
     ))}
   </ul>

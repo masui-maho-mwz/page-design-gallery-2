@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './styles.module.css';
 
 type Item = { id: number; text: string; href: string };
@@ -21,9 +22,9 @@ export const MenuListContainer = (props: Props) => {
           <ul key={index} className={styles.list}>
             {itemList.map(({ id, href, text }) => (
               <li key={id} className={styles.link}>
-                <a href={href} className={styles.anchor}>
+                <Link href={href} className={styles.anchor}>
                   {text}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

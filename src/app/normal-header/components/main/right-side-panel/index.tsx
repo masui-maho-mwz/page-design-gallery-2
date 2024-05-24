@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import styles from './styles.module.css';
 
 export const RightSidePanel = () => {
@@ -7,58 +8,58 @@ export const RightSidePanel = () => {
     <div className={styles.root}>
       <ul>
         <li className={styles.item}>
-          <a href="" className={styles.link}>
+          <Link href="" className={styles.link}>
             セクション１
-          </a>
+          </Link>
         </li>
         <li className={styles.item}>
-          <a href="" className={styles.link}>
+          <Link href="" className={styles.link}>
             セクション２
-          </a>
+          </Link>
           <ul className={styles.index}>
             <li className={styles.item}>
-              <a href="" className={styles.link}>
+              <Link href="" className={styles.link}>
                 サブセクション2-1
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
         <li className={styles.item}>
-          <a href="" className={styles.link}>
+          <Link href="" className={styles.link}>
             セクション３
-          </a>
+          </Link>
         </li>
         <li className={styles.item}>
-          <a href="" className={styles.link}>
+          <Link href="" className={styles.link}>
             セクション４
-          </a>
+          </Link>
           <ul className={styles.index}>
             <li className={styles.item}>
-              <a href="" className={styles.link}>
+              <Link href="" className={styles.link}>
                 サブセクション4-1
-              </a>
+              </Link>
             </li>
             <li className={styles.item}>
-              <a href="" className={styles.link}>
+              <Link href="" className={styles.link}>
                 サブセクション4-2
-              </a>
+              </Link>
             </li>
             <li className={styles.item}>
-              <a href="" className={styles.link}>
+              <Link href="" className={styles.link}>
                 サブセクション4-3
-              </a>
+              </Link>
             </li>
             <li className={styles.item}>
-              <a href="" className={styles.link}>
+              <Link href="" className={styles.link}>
                 サブセクション4-4
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
         <li className={styles.item}>
-          <a href="" className={styles.link}>
+          <Link href="" className={styles.link}>
             セクション５
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

@@ -1,4 +1,5 @@
 import { AbstractLogo } from '@/app/mega-menu-header/components/icons/tech-quest-logo';
+import Link from 'next/link';
 import styles from './styles.module.css';
 
 type Link = {
@@ -23,9 +24,9 @@ export const Options = ({ links }: Props) => {
       <ul className={styles.list}>
         {links.map(({ id, url, text }) => (
           <li key={id} className={styles.item}>
-            <a href={url} className={styles.link}>
+            <Link href={url} className={styles.link}>
               {text}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>

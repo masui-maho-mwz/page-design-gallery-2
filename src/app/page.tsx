@@ -7,9 +7,9 @@ export default function Home() {
     <div className={styles.root}>
       <h2 className={styles.title}>PageDesignGallery</h2>
       <ol className={styles.lists}>
-        {links.map((link) => (
-          <li key={link.href} className={styles.list}>
-            <Link href={link.href}>{link.label}</Link>
+        {links.map(({ href, label }) => (
+          <li key={href} className={styles.list}>
+            <Link href={href}>{label}</Link>
           </li>
         ))}
       </ol>

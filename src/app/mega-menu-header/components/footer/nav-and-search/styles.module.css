@@ -37,3 +37,9 @@
   font-size: 0.75rem;
   border: 1px solid #000000;
 }
+
+/* TODO: aタグのデフォルトの下線非表示はプロジェクト全体でスタイルを当てるようにしたい。 */
+.link {
+  text-decoration: none;
+  color: #000000;
+}
