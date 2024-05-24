@@ -24,6 +24,10 @@
   margin-bottom: 20px;
 }
 
+.item:hover {
+  text-decoration: underline;
+}
+
 .form {
   display: flex;
   margin-left: 0%;
