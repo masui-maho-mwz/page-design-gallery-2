@@ -1,4 +1,5 @@
 import { AbstractLogo } from '@/app/normal-header/components/icons/tech-quest-logo';
+import Link from 'next/link';
 import styles from './styles.module.css';
 
 export const UserActionBar = () => {
@@ -12,12 +13,12 @@ export const UserActionBar = () => {
           <input type="search" placeholder="検索" className={styles.input}></input>
         </form>
         <div className={styles.buttons}>
-          <a href="" className={styles.login}>
+          <Link href="" className={styles.login}>
             ログイン
-          </a>
-          <a href="" className={styles.registrations}>
+          </Link>
+          <Link href="" className={styles.registrations}>
             新規登録
-          </a>
+          </Link>
         </div>
       </div>
     </div>

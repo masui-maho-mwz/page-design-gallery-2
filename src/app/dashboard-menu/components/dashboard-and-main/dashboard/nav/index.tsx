@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useState } from 'react';
 import styles from './styles.module.css';
 
@@ -23,14 +24,14 @@ export const Nav = ({ items }: Props) => {
   return (
     <nav className={styles.root}>
       {items.map(({ id, name, href }) => (
-        <a
+        <Link
           key={id}
           href={href}
           className={`${styles.link} ${id === activeIndex ? styles.active : ''}`}
           onClick={() => handleClick(id)}
         >
           <div className={styles.label}>{name}</div>
-        </a>
+        </Link>
       ))}
     </nav>
   );
