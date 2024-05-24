@@ -1,8 +1,10 @@
 import styles from './styles.module.css';
 
+type Item = { id: number; text: string; href: string };
+
 type Props = {
   title: string;
-  items: { text: string; href: string }[][];
+  items: Array<Item[]>;
   width: number;
   showBorderRight?: boolean;
 };
@@ -13,14 +15,14 @@ export const MenuListContainer = (props: Props) => {
 
   return (
     <div className={rootClassName} style={{ width: `${width}px` }}>
-      <div className={styles.title}>{title}</div>
+      <h3 className={styles.title}>{title}</h3>
       <div className={styles.items}>
         {items.map((itemList, index) => (
           <ul key={index} className={styles.list}>
-            {itemList.map((item, itemIndex) => (
-              <li key={itemIndex} className={styles.link}>
-                <a href={item.href} className={styles.anchor}>
-                  {item.text}
+            {itemList.map(({ id, href, text }) => (
+              <li key={id} className={styles.link}>
+                <a href={href} className={styles.anchor}>
+                  {text}
                 </a>
               </li>
             ))}
