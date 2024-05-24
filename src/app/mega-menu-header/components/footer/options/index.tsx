@@ -1,8 +1,16 @@
-import { links } from '@/app/mega-menu-header/components/footer/options/links-data';
 import { AbstractLogo } from '@/app/mega-menu-header/components/icons/tech-quest-logo';
 import styles from './styles.module.css';
 
-export const Options = () => {
+type Link = {
+  url: string;
+  text: string;
+};
+
+type Props = {
+  links: Link[];
+};
+
+export const Options = ({ links }: Props) => {
   return (
     <div className={styles.root}>
       <div className={styles.wrap}>

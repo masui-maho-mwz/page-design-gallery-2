@@ -1,13 +1,23 @@
-import { navItems } from '@/app/normal-header/components/header/navigation/nav-items-data';
 import styles from './styles.module.css';
 
-export const Navigation = () => {
+type NavItem = {
+  id: number;
+  name: string;
+  href: string;
+  isNew?: boolean;
+};
+
+type Props = {
+  items: NavItem[];
+};
+
+export const Navigation = ({ items }: Props) => {
   return (
     <nav className={styles.root}>
-      {navItems.map((item) => (
-        <a href="" className={styles.item} key={item.id}>
-          {item.name}
-          {item.isNew && <span className={styles.chip}>NEW</span>}
+      {items.map(({ id, name, href, isNew }) => (
+        <a href={href} className={styles.item} key={id}>
+          {name}
+          {isNew && <span className={styles.chip}>NEW</span>}
         </a>
       ))}
     </nav>
