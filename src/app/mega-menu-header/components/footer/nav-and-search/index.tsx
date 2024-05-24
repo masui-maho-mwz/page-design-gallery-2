@@ -1,3 +1,4 @@
+import { Loupe } from '@/app/dashboard-menu/components/icons/loupe';
 import Link from 'next/link';
 import styles from './styles.module.css';
 
@@ -26,6 +27,9 @@ const NavList = ({ items }: { items: NavItem[] }) => (
 const SearchForm = () => (
   <form className={styles.form}>
     <input type="text" placeholder="何かお探しですか？" className={styles.input} />
+    <div className={styles.loupe}>
+      <Loupe />
+    </div>
     <button className={styles.button}>検索</button>
   </form>
 );
