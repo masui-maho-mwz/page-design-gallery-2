@@ -12,7 +12,7 @@
 }
 
 .wrap {
-  padding: 0 2.5rem;
+  padding: 0 40px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -24,7 +24,7 @@
   background-color: transparent;
   border: 0px;
   margin: 0px;
-  padding: 0.5rem;
+  padding: 8px;
   width: 40px;
 }
 
@@ -36,7 +36,7 @@
 
 .button {
   border: 0;
-  padding: 0.5rem;
+  padding: 8px;
   width: 40px;
   height: 40px;
   background-color: transparent;

@@ -4,7 +4,7 @@
 
 .item {
   list-style-type: none;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 
 .link {
@@ -17,10 +17,10 @@
   color: rgb(0 0 0 / 87%);
   font-weight: bold;
   border-radius: 4px;
-  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  padding: 4px 8px;
 }
 
 .index {
-  padding-left: 1em;
-  margin-top: 0.75rem;
+  padding-left: 16px;
+  margin-top: 12px;
 }

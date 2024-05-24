@@ -14,8 +14,8 @@
 .link {
   display: flex;
   align-items: center;
-  font-size: 0.75rem;
-  padding: 0 1rem;
+  font-size: 12px;
+  padding: 0 16px;
   text-decoration: none;
   color: #0868a8;
   border-right: 1px solid #999999;

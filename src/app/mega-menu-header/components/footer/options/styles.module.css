@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem 1.25rem 1.5rem;
-  margin: 0 6rem;
+  padding: 16px 24px 20px 24px;
+  margin: 0 96px;
 }
 
 .wrap {
@@ -12,20 +12,20 @@
 }
 
 .logo {
-  width: 2rem;
-  height: 1.5rem;
-  margin-right: 2rem;
+  width: 32px;
+  height: 24px;
+  margin-right: 32px;
 }
 
 .text {
-  font-size: 0.5rem;
+  font-size: 8px;
   color: #646464;
 }
 
 .list {
   display: flex;
   list-style: none;
-  font-size: 0.75rem;
+  font-size: 12px;
 }
 
 .link {
@@ -34,6 +34,6 @@
 }
 
 .item {
-  padding: 0 0.5rem;
+  padding: 0 8px;
   border-right: 1px solid #808080;
 }

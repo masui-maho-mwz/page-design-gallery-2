@@ -1,6 +1,13 @@
 export const Eye = () => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" viewBox="0 0 24 24">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+      role="img"
+      width="16px"
+      height="16px"
+      viewBox="0 0 24 24"
+    >
       <circle cx="12" cy="12" r="1.5" fill="currentColor"></circle>
       <path
         fill="currentColor"

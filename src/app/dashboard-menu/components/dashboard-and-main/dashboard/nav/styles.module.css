@@ -1,14 +1,14 @@
 .root {
   display: flex;
   flex-direction: column;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .link {
   position: relative;
-  padding: 0.5rem 1rem;
-  margin-top: 0.25rem;
+  padding: 8px 16px;
+  margin-top: 4px;
   border-radius: 6px;
   color: rgb(99, 115, 129);
   background-color: transparent;
