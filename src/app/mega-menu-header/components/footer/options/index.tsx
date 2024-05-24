@@ -2,6 +2,7 @@ import { AbstractLogo } from '@/app/mega-menu-header/components/icons/tech-quest
 import styles from './styles.module.css';
 
 type Link = {
+  id: number;
   url: string;
   text: string;
 };
@@ -20,10 +21,10 @@ export const Options = ({ links }: Props) => {
         <small className={styles.text}>Copyright ©xxxxx Corporation. All rights reserved.</small>
       </div>
       <ul className={styles.list}>
-        {links.map((link, index) => (
-          <li key={index} className={styles.item}>
-            <a href={link.url} className={styles.link}>
-              {link.text}
+        {links.map(({ id, url, text }) => (
+          <li key={id} className={styles.item}>
+            <a href={url} className={styles.link}>
+              {text}
             </a>
           </li>
         ))}
