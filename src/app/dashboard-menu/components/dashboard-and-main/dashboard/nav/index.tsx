@@ -1,10 +1,19 @@
 'use client';
 
-import { items } from '@/app/dashboard-menu/components/dashboard-and-main/dashboard/nav/items-data';
 import { useState } from 'react';
 import styles from './styles.module.css';
 
-export const Nav = () => {
+type Items = {
+  id: number;
+  name: string;
+  href: string;
+};
+
+type Props = {
+  items: Items[];
+};
+
+export const Nav = ({ items }: Props) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleClick = (index: number) => {
@@ -13,14 +22,14 @@ export const Nav = () => {
 
   return (
     <nav className={styles.root}>
-      {items.map((item, index) => (
+      {items.map(({ id, name, href }) => (
         <a
-          key={index}
-          href="#"
-          className={`${styles.link} ${index === activeIndex ? styles.active : ''}`}
-          onClick={() => handleClick(index)}
+          key={id}
+          href={href}
+          className={`${styles.link} ${id === activeIndex ? styles.active : ''}`}
+          onClick={() => handleClick(id)}
         >
-          <div className={styles.label}>{item}</div>
+          <div className={styles.label}>{name}</div>
         </a>
       ))}
     </nav>

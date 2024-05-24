@@ -1,4 +1,5 @@
 import { Articles } from '@/app/dashboard-menu/components/dashboard-and-main/main/articles';
+import { articles } from '@/app/dashboard-menu/components/dashboard-and-main/main/articles/articles-data';
 import { ContentsHeader } from '@/app/dashboard-menu/components/dashboard-and-main/main/contents-header';
 import styles from './styles.module.css';
 
@@ -7,7 +8,7 @@ export default function Home() {
     <div className={styles.root}>
       <div className={styles.contents}>
         <ContentsHeader />
-        <Articles />
+        <Articles articles={articles} />
       </div>
     </div>
   );
