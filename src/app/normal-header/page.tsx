@@ -1,15 +1,13 @@
-import { Footer } from '@/app/normal-header/footer';
-import { Header } from '@/app/normal-header/header';
-import { Main } from '@/app/normal-header/main';
-import { Navigation } from '@/app/normal-header/navigation';
+import { MainContents } from '@/app/normal-header/components/main/main-contents';
+import { RightSidePanel } from '@/app/normal-header/components/main/right-side-panel';
+import { sections } from '@/app/normal-header/sections-data';
+import styles from './styles.module.css';
 
-export default function NomalHeaderHome() {
+export default function NormalHeaderHome() {
   return (
-    <div>
-      <Header />
-      <Navigation />
-      <Main />
-      <Footer />
-    </div>
+    <main className={styles.root}>
+      <MainContents />
+      <RightSidePanel sections={sections} />
+    </main>
   );
 }
